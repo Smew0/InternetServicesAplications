@@ -1,0 +1,296 @@
+Folder PATH listing
+Volume serial number is 42E3-456A
+C:.
+³   tree.txt
+³   
+ÃÄÄÄ.idea
+³   ³   .gitignore
+³   ³   compiler.xml
+³   ³   encodings.xml
+³   ³   jarRepositories.xml
+³   ³   lab6.iml
+³   ³   misc.xml
+³   ³   modules.xml
+³   ³   workspace.xml
+³   ³   
+³   ÀÄÄÄhttpRequests
+³           2026-01-22T095532.404.json
+³           2026-01-22T095537.200.json
+³           2026-01-22T095545.404.json
+³           2026-01-22T095547.404.json
+³           2026-01-22T095606.404.json
+³           2026-01-22T095626.200.json
+³           2026-01-22T095629.200.json
+³           2026-01-22T095646.404.json
+³           2026-01-22T095708.200.json
+³           2026-01-22T095721.200.json
+³           2026-01-22T095733.404.json
+³           2026-01-22T095741.200.json
+³           2026-01-22T095802.404.json
+³           2026-01-22T095810.200.json
+³           2026-01-22T095853.404.json
+³           2026-01-22T104318.200.json
+³           2026-01-22T104325.200.json
+³           2026-01-22T104923.200.json
+³           2026-01-22T104927.200.json
+³           2026-01-22T104932.200.json
+³           2026-01-22T104937.200.json
+³           2026-01-22T104943.200.json
+³           2026-01-22T105154.200.json
+³           http-client.cookies
+³           http-requests-log.http
+³           
+ÃÄÄÄCategoryService
+³   ³   .gitignore
+³   ³   pom.xml
+³   ³   
+³   ÃÄÄÄ.idea
+³   ³   ³   .gitignore
+³   ³   ³   compiler.xml
+³   ³   ³   encodings.xml
+³   ³   ³   jarRepositories.xml
+³   ³   ³   misc.xml
+³   ³   ³   workspace.xml
+³   ³   ³   
+³   ³   ÀÄÄÄhttpRequests
+³   ³           2026-01-21T174405.200.json
+³   ³           2026-01-21T174414.405.json
+³   ³           2026-01-21T174451.405.json
+³   ³           2026-01-21T174852.200.json
+³   ³           2026-01-21T174856.200.json
+³   ³           2026-01-21T174905.200.json
+³   ³           2026-01-21T174908.200.json
+³   ³           2026-01-21T174923.200.json
+³   ³           2026-01-21T174931.200.json
+³   ³           2026-01-21T174936.404.json
+³   ³           2026-01-21T174948.404.json
+³   ³           2026-01-21T174959.200.json
+³   ³           2026-01-21T175003.404.json
+³   ³           2026-01-21T175019.200.json
+³   ³           2026-01-21T175044.200.json
+³   ³           2026-01-21T175100.200.json
+³   ³           2026-01-21T175320.200.json
+³   ³           2026-01-21T175327.200.json
+³   ³           2026-01-21T175348.200.json
+³   ³           2026-01-21T175355.200.json
+³   ³           2026-01-21T175400.200.json
+³   ³           2026-01-21T175419.404.json
+³   ³           2026-01-21T175650.200.json
+³   ³           2026-01-21T175653.200.json
+³   ³           2026-01-21T175659.200.json
+³   ³           2026-01-21T175708.200.json
+³   ³           2026-01-21T175713.200.json
+³   ³           2026-01-21T175719.200.json
+³   ³           2026-01-21T175739.200.json
+³   ³           2026-01-21T175746.200.json
+³   ³           2026-01-21T175815.200.json
+³   ³           2026-01-21T175850.200.json
+³   ³           2026-01-21T180019.200.json
+³   ³           2026-01-21T180023.200.json
+³   ³           2026-01-21T180034.200.json
+³   ³           2026-01-21T180052.200.json
+³   ³           2026-01-21T180103.200.json
+³   ³           2026-01-21T180109.200.json
+³   ³           2026-01-21T180124.200.json
+³   ³           2026-01-21T180131.200.json
+³   ³           http-client.cookies
+³   ³           http-requests-log.http
+³   ³           
+³   ÃÄÄÄsrc
+³   ³   ³   request.http
+³   ³   ³   
+³   ³   ÃÄÄÄmain
+³   ³   ³   ÃÄÄÄjava
+³   ³   ³   ³   ÀÄÄÄorg
+³   ³   ³   ³       ÀÄÄÄexample
+³   ³   ³   ³           ³   Application.java
+³   ³   ³   ³           ³   Category.java
+³   ³   ³   ³           ³   CategoryRepository.java
+³   ³   ³   ³           ³   CategoryService.java
+³   ³   ³   ³           ³   CommandLineRunner.java
+³   ³   ³   ³           ³   DataInitializer.java
+³   ³   ³   ³           ³   
+³   ³   ³   ³           ÃÄÄÄcontroller
+³   ³   ³   ³           ³       CategoryController.java
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÀÄÄÄdto
+³   ³   ³   ³                   CategoryCollectionDto.java
+³   ³   ³   ³                   CategoryCreateUpdateDto.java
+³   ³   ³   ³                   CategoryReadDto.java
+³   ³   ³   ³                   
+³   ³   ³   ÀÄÄÄresources
+³   ³   ³           application.properties
+³   ³   ³           
+³   ³   ÀÄÄÄtest
+³   ³       ÀÄÄÄjava
+³   ÀÄÄÄtarget
+³       ÃÄÄÄclasses
+³       ³   ³   application.properties
+³       ³   ³   
+³       ³   ÀÄÄÄorg
+³       ³       ÀÄÄÄexample
+³       ³           ³   Application.class
+³       ³           ³   Category.class
+³       ³           ³   CategoryRepository.class
+³       ³           ³   CategoryService$CategorySyncDto.class
+³       ³           ³   CategoryService.class
+³       ³           ³   CommandLineRunner.class
+³       ³           ³   DataInitializer.class
+³       ³           ³   
+³       ³           ÃÄÄÄcontroller
+³       ³           ³       CategoryController.class
+³       ³           ³       
+³       ³           ÀÄÄÄdto
+³       ³                   CategoryCollectionDto.class
+³       ³                   CategoryCreateUpdateDto.class
+³       ³                   CategoryReadDto.class
+³       ³                   
+³       ÀÄÄÄgenerated-sources
+³           ÀÄÄÄannotations
+ÃÄÄÄElementService
+³   ³   .gitignore
+³   ³   pom.xml
+³   ³   
+³   ÃÄÄÄ.idea
+³   ³   ³   .gitignore
+³   ³   ³   compiler.xml
+³   ³   ³   encodings.xml
+³   ³   ³   jarRepositories.xml
+³   ³   ³   misc.xml
+³   ³   ³   workspace.xml
+³   ³   ³   
+³   ³   ÀÄÄÄhttpRequests
+³   ³           2026-01-21T174405.200.json
+³   ³           2026-01-21T174414.405.json
+³   ³           2026-01-21T174451.405.json
+³   ³           2026-01-21T174852.200.json
+³   ³           2026-01-21T174856.200.json
+³   ³           2026-01-21T174905.200.json
+³   ³           2026-01-21T174908.200.json
+³   ³           2026-01-21T174923.200.json
+³   ³           2026-01-21T174931.200.json
+³   ³           2026-01-21T174936.404.json
+³   ³           2026-01-21T174948.404.json
+³   ³           2026-01-21T174959.200.json
+³   ³           2026-01-21T175003.404.json
+³   ³           2026-01-21T175019.200.json
+³   ³           2026-01-21T175044.200.json
+³   ³           2026-01-21T175100.200.json
+³   ³           2026-01-21T175320.200.json
+³   ³           2026-01-21T175327.200.json
+³   ³           2026-01-21T175348.200.json
+³   ³           2026-01-21T175355.200.json
+³   ³           2026-01-21T175400.200.json
+³   ³           2026-01-21T175419.404.json
+³   ³           2026-01-21T175650.200.json
+³   ³           2026-01-21T175653.200.json
+³   ³           2026-01-21T175659.200.json
+³   ³           2026-01-21T175708.200.json
+³   ³           2026-01-21T175713.200.json
+³   ³           2026-01-21T175719.200.json
+³   ³           2026-01-21T175739.200.json
+³   ³           2026-01-21T175746.200.json
+³   ³           2026-01-21T175815.200.json
+³   ³           2026-01-21T175850.200.json
+³   ³           2026-01-21T180019.200.json
+³   ³           2026-01-21T180023.200.json
+³   ³           2026-01-21T180034.200.json
+³   ³           2026-01-21T180052.200.json
+³   ³           2026-01-21T180103.200.json
+³   ³           2026-01-21T180109.200.json
+³   ³           2026-01-21T180124.200.json
+³   ³           2026-01-21T180131.200.json
+³   ³           http-client.cookies
+³   ³           http-requests-log.http
+³   ³           
+³   ÃÄÄÄsrc
+³   ³   ³   request.http
+³   ³   ³   
+³   ³   ÃÄÄÄmain
+³   ³   ³   ÃÄÄÄjava
+³   ³   ³   ³   ÀÄÄÄorg
+³   ³   ³   ³       ÀÄÄÄexample
+³   ³   ³   ³           ³   Application.java
+³   ³   ³   ³           ³   Category.java
+³   ³   ³   ³           ³   CategoryRepository.java
+³   ³   ³   ³           ³   CategoryService.java
+³   ³   ³   ³           ³   CommandLineRunner.java
+³   ³   ³   ³           ³   DataInitializer.java
+³   ³   ³   ³           ³   Element.java
+³   ³   ³   ³           ³   ElementRepository.java
+³   ³   ³   ³           ³   ElementService.java
+³   ³   ³   ³           ³   
+³   ³   ³   ³           ÃÄÄÄcontroller
+³   ³   ³   ³           ³       CategorySyncController.java
+³   ³   ³   ³           ³       ElementController.java
+³   ³   ³   ³           ³       
+³   ³   ³   ³           ÀÄÄÄdto
+³   ³   ³   ³                   CategoryCollectionDto.java
+³   ³   ³   ³                   CategoryCreateUpdateDto.java
+³   ³   ³   ³                   CategoryReadDto.java
+³   ³   ³   ³                   ElementCollectionDto.java
+³   ³   ³   ³                   ElementCreateUpdateDto.java
+³   ³   ³   ³                   ElementReadDto.java
+³   ³   ³   ³                   
+³   ³   ³   ÀÄÄÄresources
+³   ³   ³           application.properties
+³   ³   ³           
+³   ³   ÀÄÄÄtest
+³   ³       ÀÄÄÄjava
+³   ÀÄÄÄtarget
+³       ÃÄÄÄclasses
+³       ³   ³   application.properties
+³       ³   ³   
+³       ³   ÀÄÄÄorg
+³       ³       ÀÄÄÄexample
+³       ³           ³   Application.class
+³       ³           ³   Category.class
+³       ³           ³   CategoryRepository.class
+³       ³           ³   CategoryService.class
+³       ³           ³   CommandLineRunner.class
+³       ³           ³   DataInitializer.class
+³       ³           ³   Element.class
+³       ³           ³   ElementRepository.class
+³       ³           ³   ElementService.class
+³       ³           ³   
+³       ³           ÃÄÄÄcontroller
+³       ³           ³       CategorySyncController$CategorySyncDto.class
+³       ³           ³       CategorySyncController.class
+³       ³           ³       ElementController.class
+³       ³           ³       
+³       ³           ÀÄÄÄdto
+³       ³                   CategoryCollectionDto.class
+³       ³                   CategoryCreateUpdateDto.class
+³       ³                   CategoryReadDto.class
+³       ³                   ElementCollectionDto.class
+³       ³                   ElementCreateUpdateDto.class
+³       ³                   ElementReadDto.class
+³       ³                   
+³       ÀÄÄÄgenerated-sources
+³           ÀÄÄÄannotations
+ÀÄÄÄGatewayService
+    ³   pom.xml
+    ³   
+    ÃÄÄÄ.mvn
+    ÃÄÄÄsrc
+    ³   ÃÄÄÄmain
+    ³   ³   ÃÄÄÄjava
+    ³   ³   ³   ÀÄÄÄorg
+    ³   ³   ³       ÀÄÄÄexample
+    ³   ³   ³               ApiGatewayApplication.java
+    ³   ³   ³               
+    ³   ³   ÀÄÄÄresources
+    ³   ³           application.yml
+    ³   ³           
+    ³   ÀÄÄÄtest
+    ³       ÀÄÄÄjava
+    ÀÄÄÄtarget
+        ÃÄÄÄclasses
+        ³   ³   application.yml
+        ³   ³   
+        ³   ÀÄÄÄorg
+        ³       ÀÄÄÄexample
+        ³               ApiGatewayApplication.class
+        ³               
+        ÀÄÄÄgenerated-sources
+            ÀÄÄÄannotations

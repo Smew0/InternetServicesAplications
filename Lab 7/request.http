@@ -1,0 +1,47 @@
+### Variables
+# All requests now point to the Gateway (Port 8082)
+@baseUrl = http://localhost:8082/api
+
+# Using the static UUID from our fixed DataInitializer
+@categoryId = 11111111-1111-1111-1111-111111111111
+@elementId = ca641e26-0215-48cb-b539-655ca88f3630
+
+### 1. Get All Categories
+# Routed to Category Service (8080)
+GET {{baseUrl}}/categories
+
+### 2. Create a Category
+# Routed to Category Service (8080)
+POST {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+  "name": "Hardware"
+}
+
+### 3. Get All Elements in a Category
+# Routed to Element Service (8081)
+GET {{baseUrl}}/categories/{{categoryId}}/elements
+
+### 4. Create an Element in a Category
+# Routed to Element Service (8081)
+POST {{baseUrl}}/categories/{{categoryId}}/elements
+Content-Type: application/json
+
+{
+  "name": "Mechanical Keyboard",
+  "price": 120.00
+}
+
+### 5. Get All Elements (Flat List)
+# Routed to Element Service (8081)
+GET {{baseUrl}}/elements
+
+### 6. Delete an Element
+# Routed to Element Service (8081)
+DELETE {{baseUrl}}/elements/{{elementId}}
+
+### 7. Delete a Category (Triggers Cascade to Elements)
+# Routed to Category Service (8080).
+# Category Service then notifies Element Service (8081) via the internal Sync API.
+DELETE {{baseUrl}}/categories/{{categoryId}}

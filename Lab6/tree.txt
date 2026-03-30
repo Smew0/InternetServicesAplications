@@ -1,0 +1,126 @@
+Folder PATH listing
+Volume serial number is 42E3-456A
+C:.
++---.idea
+|   \---httpRequests
++---CategoryService
+|   +---.idea
+|   |   \---httpRequests
+|   +---.mvn
+|   +---src
+|   |   +---main
+|   |   |   +---java
+|   |   |   |   \---org
+|   |   |   |       \---example
+|   |   |   |           +---controller
+|   |   |   |           \---dto
+|   |   |   \---resources
+|   |   \---test
+|   |       \---java
+|   \---target
+|       +---classes
+|       |   \---org
+|       |       \---example
+|       |           +---controller
+|       |           \---dto
+|       \---generated-sources
+|           \---annotations
++---ElementService
+|   +---.idea
+|   |   \---httpRequests
+|   +---.mvn
+|   +---src
+|   |   +---main
+|   |   |   +---java
+|   |   |   |   \---org
+|   |   |   |       \---example
+|   |   |   |           +---controller
+|   |   |   |           \---dto
+|   |   |   \---resources
+|   |   \---test
+|   |       \---java
+|   \---target
+|       +---classes
+|       |   \---org
+|       |       \---example
+|       |           +---controller
+|       |           \---dto
+|       \---generated-sources
+|           \---annotations
++---GatewayService
+|   +---.mvn
+|   +---src
+|   |   +---main
+|   |   |   +---java
+|   |   |   |   \---org
+|   |   |   |       \---example
+|   |   |   \---resources
+|   |   \---test
+|   |       \---java
+|   \---target
+|       +---classes
+|       |   \---org
+|       |       \---example
+|       \---generated-sources
+|           \---annotations
+\---Lab6
+    +---.idea
+    |   \---httpRequests
+    +---CategoryService
+    |   +---.idea
+    |   |   \---httpRequests
+    |   +---src
+    |   |   +---main
+    |   |   |   +---java
+    |   |   |   |   \---org
+    |   |   |   |       \---example
+    |   |   |   |           +---controller
+    |   |   |   |           \---dto
+    |   |   |   \---resources
+    |   |   \---test
+    |   |       \---java
+    |   \---target
+    |       +---classes
+    |       |   \---org
+    |       |       \---example
+    |       |           +---controller
+    |       |           \---dto
+    |       \---generated-sources
+    |           \---annotations
+    +---ElementService
+    |   +---.idea
+    |   |   \---httpRequests
+    |   +---src
+    |   |   +---main
+    |   |   |   +---java
+    |   |   |   |   \---org
+    |   |   |   |       \---example
+    |   |   |   |           +---controller
+    |   |   |   |           \---dto
+    |   |   |   \---resources
+    |   |   \---test
+    |   |       \---java
+    |   \---target
+    |       +---classes
+    |       |   \---org
+    |       |       \---example
+    |       |           +---controller
+    |       |           \---dto
+    |       \---generated-sources
+    |           \---annotations
+    \---GatewayService
+        +---.mvn
+        +---src
+        |   +---main
+        |   |   +---java
+        |   |   |   \---org
+        |   |   |       \---example
+        |   |   \---resources
+        |   \---test
+        |       \---java
+        \---target
+            +---classes
+            |   \---org
+            |       \---example
+            \---generated-sources
+                \---annotations

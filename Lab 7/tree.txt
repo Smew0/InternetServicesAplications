@@ -1,0 +1,108 @@
+.idea
+|   |   .gitignore
+|   |   compiler.xml
+|   |   encodings.xml
+|   |   jarRepositories.xml
+|   |   lab6.iml
+|   |   misc.xml
+|   |   modules.xml
+|   |   workspace.xml
+|   |   
+|   httpRequests
+|           http-client.cookies
+|           http-requests-log.http
+|           
+CategoryService
+|   |           
+|   .mvn
+|   src
+|   |   main
+|   |   |   java
+|   |   |   |   org
+|   |   |   |       example
+|   |   |   |           |   Application.java
+|   |   |   |           |   Category.java
+|   |   |   |           |   CategoryRepository.java
+|   |   |   |           |   CategoryService.java
+|   |   |   |           |   CommandLineRunner.java
+|   |   |   |           |   DataInitializer.java
+|   |   |   |           |   
+|   |   |   |           controller
+|   |   |   |           |       CategoryController.java
+|   |   |   |           |       
+|   |   |   |           dto
+|   |   |   |                   CategoryCollectionDto.java
+|   |   |   |                   CategoryCreateUpdateDto.java
+|   |   |   |                   CategoryReadDto.java
+|   |   |   |                   
+|   |   |   resources
+|   |   |           application.properties
+|   |   |           
+|   |   test
+|   |       java
+|   target
+ElementService
+|   |   .gitignore
+|   |   pom.xml
+|   |   
+|   |           
+|   .mvn
+|   src
+|   |   main
+|   |   |   java
+|   |   |   |   org
+|   |   |   |       example
+|   |   |   |           |   Application.java
+|   |   |   |           |   Category.java
+|   |   |   |           |   CategoryRepository.java
+|   |   |   |           |   CategoryService.java
+|   |   |   |           |   CommandLineRunner.java
+|   |   |   |           |   DataInitializer.java
+|   |   |   |           |   Element.java
+|   |   |   |           |   ElementRepository.java
+|   |   |   |           |   ElementService.java
+|   |   |   |           |   
+|   |   |   |           controller
+|   |   |   |           |       CategorySyncController.java
+|   |   |   |           |       ElementController.java
+|   |   |   |           |       
+|   |   |   |           dto
+|   |   |   |                   CategoryCollectionDto.java
+|   |   |   |                   CategoryCreateUpdateDto.java
+|   |   |   |                   CategoryReadDto.java
+|   |   |   |                   ElementCollectionDto.java
+|   |   |   |                   ElementCreateUpdateDto.java
+|   |   |   |                   ElementReadDto.java
+|   |   |   |                   
+|   |   |   resources
+|   |   |           application.properties
+|   |   |           
+|   |   test
+|   |       java
+|   target
+GatewayService
+    |   pom.xml
+    |   
+    .mvn
+    src
+    |   main
+    |   |   java
+    |   |   |   org
+    |   |   |       example
+    |   |   |               ApiGatewayApplication.java
+    |   |   |               
+    |   |   resources
+    |   |           application.yml
+    |   |           
+    |   test
+    |       java
+    target
+        classes
+        |   |   application.yml
+        |   |   
+        |   org
+        |       example
+        |               ApiGatewayApplication.class
+        |               
+        generated-sources
+            annotations

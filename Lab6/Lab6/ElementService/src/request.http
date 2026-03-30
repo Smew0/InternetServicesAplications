@@ -1,0 +1,42 @@
+### Variables
+### url - cat, url2 elem
+
+@baseUrl = http://localhost:8080/api
+@baseUrl2 = http://localhost:8081/api
+
+@categoryId = 33333333-3333-3333-3333-333333333333
+
+
+@elementId = e7fda372-c892-4156-9c32-988c8268ec64
+
+### 1. Get All Categories
+GET {{baseUrl}}/categories
+
+### 2. Create a Category
+POST {{baseUrl}}/categories
+Content-Type: application/json
+
+{
+  "name": "Hardware"
+}
+
+### 3. Get All Elements in a Category
+GET {{baseUrl2}}/categories/{{categoryId}}/elements
+
+### 4. Create an Element in a Category
+POST {{baseUrl2}}/categories/{{categoryId}}/elements
+Content-Type: application/json
+
+{
+  "name": "Mechanical Keyboard",
+  "price": 120.00
+}
+
+### 5. Get All Elements (Flat List)
+GET {{baseUrl2}}/elements
+
+### 6. Delete an Element
+DELETE {{baseUrl2}}/elements/{{elementId}}
+
+### 7. Delete a Category (Triggers Cascade to Elements)
+DELETE {{baseUrl}}/categories/{{categoryId}}

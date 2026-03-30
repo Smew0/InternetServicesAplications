@@ -1,0 +1,35 @@
+server:
+  port: 8082
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        # 1. Routes specifically for Element Management (The sub-path)
+        - id: element-category-route
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/categories/*/elements/**
+
+        # 2. General Element routes
+        - id: element-service-route
+          uri: http://localhost:8081
+          predicates:
+            - Path=/api/elements/**
+
+        # 3. General Category routes
+        - id: category-service-route
+          uri: http://localhost:8080
+          predicates:
+            - Path=/api/categories/**
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods:
+              - GET
+              - POST
+              - DELETE
+              - PUT
+              - OPTIONS
+            allowedHeaders: "*"
